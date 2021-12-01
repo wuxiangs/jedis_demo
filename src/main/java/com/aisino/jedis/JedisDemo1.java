@@ -13,5 +13,6 @@ public class JedisDemo1 {
         Jedis jedis=new Jedis("localhost",6379);
         String ping = jedis.ping();
         System.out.println(ping);
+        System.out.println("哈哈哈");
     }
 }
